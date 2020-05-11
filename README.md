@@ -1,4 +1,7 @@
-# mevnproject
+# Music Library MEVN Project
+...
+Developed by Melissa, Zac, and Justin for ICS4U
+...
 
 ## Project setup
 ```
