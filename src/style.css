@@ -1,0 +1,348 @@
+body {
+	color: black;
+	font-family: Calisto;
+	font-weight: normal;
+	background-color: #ebeff2;
+}
+
+html {
+	min-height: 100%;
+	background-color: #ebeff2;
+}
+
+#container {
+	width: 99%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#homebox, .carouselslide {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 720px;
+	height: 320px;
+	border: 0px solid black;
+	border-radius: 12px;
+	box-shadow: 0px 0px 20px -8px gray;
+	padding: 64px;
+}
+
+#homehead {
+	font-size: 40px;
+}
+
+#homebody {
+	margin-top: 32px;
+	font-size: 18px;
+}
+
+#navbar {
+	margin-left: -0.5%;
+	width: 101%;
+	height: 60px;
+	background-color: #99c5e8;
+	vertical-align: middle;
+	margin-bottom: 32px;
+}
+
+.navbaritem {
+	color: #2686d1;
+	display: inline-block;
+	padding-top: 17px;
+	padding-bottom: 13px;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 25%;
+	text-align: center;
+	font-size: 20px;
+}
+
+#navbarhome {
+	margin-left: 12.5%;
+}
+
+.navbaritem:hover {
+	background-image: linear-gradient(90deg, #99c5e8, #bcdcf5, #bcdcf5, #99c5e8);
+	transition: background-image 0.5s;
+}
+
+.navbaritem:last-child {
+	border-right: 0px solid gray;
+}
+
+.head {
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: -40px;
+	width: 100%;
+	text-align: center;
+}
+
+.subhead {
+	margin-top: 40px;
+	font-size: 20px;
+	font-style: oblique;
+	text-decoration: underline;
+}
+
+form label {
+	display: inline-block;
+	font-size: 16px;
+	margin-top: 16px;
+	margin-bottom: 4px;
+	width: 100px;
+}
+
+form input[type="text"], select, textarea{
+	font-size: 14px;
+	font-family: Calisto;
+	border-radius: 8px;
+	padding: 4px;
+	border: 0px solid gray;
+	box-shadow: 0px 0px 8px -2px gray;
+	width: 400px;
+}
+
+textarea {
+	resize: none;
+	vertical-align: middle;
+	width: 1020px;
+}
+
+#longinput {
+	width: 1020px;
+	margin-bottom: 20px;
+}
+
+.playlists label {
+	margin: 0;
+}
+
+input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+}
+
+.posttable {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1120px;
+}
+
+#holdright {
+	text-align: right;
+}
+
+.posttablerow {
+	display: table-row;
+}
+
+.posttablecell {
+	display: table-cell;
+	width: 45%;
+}
+
+.playlistblock {
+	text-align: left;
+	border-radius: 8px;
+	border: 0px solid gray;
+	padding: 4px;
+	margin-left: 20px;
+	display: inline-block;
+	vertical-align: middle;
+	box-shadow: 0px 0px 8px -2px gray;
+	margin-top:12px;
+	margin-bottom: 12px;
+	width: 462px;
+}
+
+.playlistblock label {
+	width: 454px;
+}
+
+.playlistblock p {
+	margin-top: 8px;
+	font-style: italic;
+}
+
+.postbutton, .postbuttonshow, .postbuttonshowtable {
+	display: block;
+	margin-top: 36px;
+	margin-bottom: 36px;
+	width: 640px;
+	height: 48px;
+	font-size: 22px;
+	border: 0px solid black;
+	border-radius: 8px;
+	background-color: #42a1eb;
+	color: white;
+	box-shadow: 0px 0px 8px -2px #42a1eb;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.red .postbuttonshowtable, .playlistdelete .postbuttonshowtable {
+	background-color: #d6365c;
+	box-shadow: 0px 0px 8px -2px #d6365c;
+	padding-top: 0px;
+	padding-bottom: 1px;
+	margin-left: 16px;
+}
+
+router-link {
+	display: none;
+}
+
+.postbuttonshow ,.postbuttonshowtable{
+	position: relative;
+	display: inline-block;
+	margin-left: 962px;
+	width: 160px;
+	height: 40px;
+	font-size: 20px;
+	text-align: middle;
+}
+
+.postbuttonshowtable {
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;
+	width: 72px;
+	height: 32px;
+	padding-top: 0px;
+}
+
+
+#addsong, #removefilter, #addplaylist {
+	position: absolute;
+	padding-top: 0px;
+	top: 52px;
+	width: 160px;
+	right: 12px;
+}
+
+#topbutton, #topbuttonleft {
+	margin-left: 0px;
+}
+
+
+#removefilter {
+	left: 12px;
+	display: none;
+}
+
+
+
+.showtable {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+
+.showtable th, .showtable td {
+	margin-bottom: 4px;
+	border-bottom: 2px solid gray;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 14px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+.showtable th {
+	font-size: 18px;
+}
+
+.showtable td {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	vertical-align: middle;
+}
+
+.playlisttitle {
+	width:25%;
+}
+
+.playlistdesc {
+	width:180.5%;
+}
+
+.playlistedit, .playlistdelete {
+	width: 7.5%;
+}
+
+.songtitle {
+	width: 25%;
+}
+
+.songartist {
+	width: 25%;
+}
+
+.songalbum {
+	width: 25%;
+}
+
+.songgenre {
+	width: 10%;
+}
+
+.songactions {
+	width: 15%;
+}
+
+#songs:last-child td {
+	border-bottom: 0px solid gray;
+}
+
+.toprow th {
+	padding-top: 48px;
+}
+
+.row0 {
+	background-color: #f8f8f8;
+}
+
+.row1 {
+	background-color: #ededed;
+}
+
+.inlink {
+	display: inline;
+	text-decoration: none;
+	color: #2382cc;
+}
+
+.inlink:hover {
+	color: #d6365c;
+	transition: all 0.6s;
+}
+
+.insongs {
+	display: inline;
+	text-decoration: none;
+	color: #3a76a1;
+}
+
+.insongs:hover {
+	color: #e08198;
+	transition: all 0.6s;
+}
+
+#carouselcontainer {
+	display: table;
+}
+
+#carouselrow {
+	display: table-row;
+}
+
+.carouselslide {
+	display: table-cell;
+	position: absolute;
+	top: 92px;
+	left: 40px;
+}
